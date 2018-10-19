@@ -35,6 +35,10 @@ describe('#主页', () => {
     return client.isVisible(homeSelectors.HiddenLable).should.eventually.be.false;
   });
 
+  it("错误示范", function () {
+    return client.isVisible(homeSelectors.HiddenLable).should.eventually.be.true;
+  });
+
   // it("点击崩溃", function () {
   //   var screen = client.element('~crashbtn');
   //   screen.touchAction([
