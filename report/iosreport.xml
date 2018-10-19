@@ -1,0 +1,26 @@
+<testsuites name="Mocha Tests">
+  <testsuite name="#登录" tests="7" errors="0" failures="0" skipped="0" timestamp="2018-10-19T01:40:03" time="244.389">
+    <testcase classname="#登录" name="登录是否可见" time="1.618">
+    </testcase>
+    <testcase classname="#登录" name="用户名为空" time="10.142">
+    </testcase>
+    <testcase classname="#登录" name="用户名设置" time="10.619">
+    </testcase>
+    <testcase classname="#登录" name="密码为空" time="18.403">
+    </testcase>
+    <testcase classname="#登录" name="密码设置" time="17.078">
+    </testcase>
+    <testcase classname="#登录" name="密码错误" time="21.369">
+    </testcase>
+    <testcase classname="#登录" name="登录成功" time="30.505">
+    </testcase>
+  </testsuite>
+  <testsuite name="#主页" tests="3" errors="0" failures="0" skipped="0" timestamp="2018-10-19T01:44:08" time="46.341">
+    <testcase classname="#主页" name="正确跳转到home" time="3.063">
+    </testcase>
+    <testcase classname="#主页" name="isVisible" time="0.411">
+    </testcase>
+    <testcase classname="#主页" name="长按后hiddenLable显示" time="6.682">
+    </testcase>
+  </testsuite>
+</testsuites>
