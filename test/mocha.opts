@@ -1,0 +1,4 @@
+--timeout 1800000
+--reporter mocha-jenkins-reporter
+--sort
+—-colors

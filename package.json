@@ -1,0 +1,22 @@
+{
+  "name": "webdriverioclient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "JUNIT_REPORT_PATH=/report.xml mocha --recursive", 
+    "testios": "JUNIT_REPORT_PATH=/report.xml mocha test/{,iOS/,Common/}*.{js,jsx}", 
+    "testandroid": "JUNIT_REPORT_PATH=/report.xml mocha test/{,Android/,Common/}*.{js,jsx}" 
+  },
+  "keywords": [],
+  "author": "Linzy",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "webdriverio": "^4.13.2",
+    "mochawesome": "3.0.3",
+    "chai-as-promised": "*",
+    "mocha-jenkins-reporter": "*"
+  }
+}
